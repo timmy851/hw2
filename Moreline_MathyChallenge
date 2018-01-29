@@ -1,0 +1,13 @@
+
+function setup() {
+  createCanvas(340, 340);
+}
+
+function draw() {
+  var x = random(width)
+  var y = random(height)
+  var x2 = 20
+
+  var y2 = 2*x2 - 2*x + y;
+  line((x), (y), (x2), (y2));
+}
