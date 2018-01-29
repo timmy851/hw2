@@ -1,0 +1,8 @@
+
+function setup() {
+  createCanvas(340, 340);
+}
+
+function draw() {
+  line((255), (85), random(width), random(height));
+}
